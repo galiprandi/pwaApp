@@ -1,0 +1,24 @@
+{
+  "name": "pwaApp",
+  "description": "pwaApp",
+  "author": "Germán Aliprandi <galiprandi@gmail.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [],
+  "main": "src/index.html",
+  "assetsPath": "src/static",
+  "scripts": {
+    "dev": "parcel ./src/index.html --open --port 8080",
+    "build": "rm -r -f ./dist; parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "parcel-plugin-asset-copier": "^1.0.0",
+    "parcel-plugin-workbox-precache": "0.0.6",
+    "workbox-build": "^5.1.3"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.26.7"
+  }
+}
