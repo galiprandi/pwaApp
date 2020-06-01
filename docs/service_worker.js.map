@@ -1,0 +1,1 @@
+{"version":3,"sources":["service_worker.js"],"names":["workbox","precacheAndRoute","precacheManifest"],"mappings":";AACAA,QAAQC,iBAAiBC","file":"service_worker.js","sourceRoot":"../src","sourcesContent":["/* global self, workbox, precacheManifest */\nworkbox.precacheAndRoute(precacheManifest);"]}
